@@ -32,8 +32,8 @@ const consultarAPI2 = async () => {
     const resultado = await respuesta.json()
     const resultado2 = await respuesta2.json()
 
-    // console.log(resultado)
-    // console.log(resultado2)
+    console.log(resultado)
+    console.log(resultado2)
 
     const fin = performance.now()
 

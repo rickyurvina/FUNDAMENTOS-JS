@@ -22,5 +22,5 @@ formulario.addEventListener('submit', e => {
         alerta.classList.add('exito')
     }
 
-    formulario.appendChild(alerta)
+    formulario.appendChild(alerta)//agrgear como hijo del form el elemento alerta
 })

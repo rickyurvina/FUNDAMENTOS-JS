@@ -3,7 +3,16 @@
 const inputNombre = document.querySelector('.nombre')
 inputNombre.addEventListener('input', function(e) {
     console.log(e.target.value)
+    // console.log(inputNombre.value)
+
 })
+// inputNombre.addEventListener('keyup', function(e) {
+//     console.log('keyup')
+// })
+// inputNombre.addEventListener('keydown', function(e) {
+//     console.log('keydown')
+// })
+
 
 const inputPassword = document.querySelector('.password')
 inputPassword.addEventListener('input', funcionPassword)
@@ -13,5 +22,5 @@ function funcionPassword() {
 
     setTimeout(() => {
         inputPassword.type = 'password'
-    }, 100);
+    }, 1000);
 }

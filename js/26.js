@@ -2,7 +2,7 @@
 
 const formulario = document.querySelector('#formulario')
 formulario.addEventListener('submit', e => {
-    e.preventDefault()
+    e.preventDefault()//preveiene la accion por default
 
     const nombre = document.querySelector('.nombre').value
     const password = document.querySelector('.password').value
