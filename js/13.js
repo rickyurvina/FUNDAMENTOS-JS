@@ -1,7 +1,6 @@
 // Funciones - Function Expression
 
-
-const sumar = function(numero = 0, numero2 = 0) {
+const sumar = function(numero = 0, numero2=0) {
     return numero + numero2
 }
 

@@ -5,9 +5,10 @@
 // }
 
 // sumar(10, 20)
-// sumar(2, 3)
-// sumar(100)
-// sumar()
+
+// // sumar(2, 3)
+// // sumar(100)
+// // sumar()
 
 function sumar(numero = 0, numero2 = 0) {
    return { 

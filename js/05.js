@@ -5,8 +5,10 @@ const producto = {
     disponible: true
 }
 
-// Object.freeze(producto) - Freeze - No deja modificarlo, no permite añadir ni eliminar
-// Object.seal(producto) - Modificar propiedades existentes, no permite añadir ni eliminar
+// Object.freeze(producto) - Freeze - No deja modificarlo, 
+// no permite añadir ni eliminar
+// Object.seal(producto) - Modificar propiedades existentes, 
+// no permite añadir ni eliminar
 
 // Reescribir un valor
 producto.nombre = "Monitor Curvo"

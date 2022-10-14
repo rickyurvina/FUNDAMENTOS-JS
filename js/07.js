@@ -10,9 +10,9 @@ const cliente = {
 }
 
 // const nuevoObjeto = Object.assign(producto, cliente) // No
-const nuevoObjeto2 = { 
+const nuevoObjeto2 = {
     producto: {...producto},
-    cliente: {...cliente}
+    cliente: {...cliente},
 }
 
 console.log(nuevoObjeto2)
