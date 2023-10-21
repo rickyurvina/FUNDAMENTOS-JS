@@ -1,13 +1,13 @@
 // Variables - const
-const cliente = "Juan"
-const precioDescuento = 220 
+const cliente = "Juan";
+const precioDescuento = 220;
 
 // No se puede re asignar
 // cliente = "Pablo"
 
 // No pueden iniciar sin valor
-const precio=52.2
+const precio = 52.2;
 
-console.log(precio)
-console.log(cliente)
-console.log(precioDescuento)
+console.log(precio);
+console.log(cliente);
+console.log(precioDescuento);
