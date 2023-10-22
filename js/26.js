@@ -9,7 +9,9 @@ formulario.addEventListener('submit', e => {
     
     if(nombre === '' || password === '') {
         console.log('Todos los campos son obligatorios')
+        alert('Todos los campos son obligatorios')
     } else {
         console.log('Todo bien, enviando...')
+        alert('Todo bien, enviando...')
     }
 })

@@ -1,11 +1,11 @@
 // manipular elementos HTML con JS
 
 const heading = document.querySelector('.heading')
-heading.textContent = 'Un Nuevo Heading'
+heading.textContent = 'Un Nuevo Heading Desde JS'
 console.log(heading.textContent)
 
 const inputNombre = document.querySelector('#nombre')
-inputNombre.value = 'Un valor por default'
+inputNombre.value = 'rickyurvina'
 
 
 const enlaces = document.querySelectorAll('.navegacion a')

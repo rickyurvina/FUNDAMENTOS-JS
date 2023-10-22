@@ -1,11 +1,11 @@
 // Eventos del DOM - Inputs
 
 const inputNombre = document.querySelector('.nombre')
-inputNombre.addEventListener('input', function(e) {
-    console.log(e.target.value)
-    // console.log(inputNombre.value)
+// inputNombre.addEventListener('input', function(e) {
+//     console.log(e.target.value)
+//     // console.log(inputNombre.value)
 
-})
+// })
 // inputNombre.addEventListener('keyup', function(e) {
 //     console.log('keyup')
 // })

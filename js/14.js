@@ -7,3 +7,5 @@ const resultado = sumar(10,20)
 
 console.log(resultado)
 
+console.log(sumaArrow())
+

@@ -11,3 +11,7 @@ const precio = 52.2;
 console.log(precio);
 console.log(cliente);
 console.log(precioDescuento);
+
+const hello="Hola mundo"
+
+console.log({hello})

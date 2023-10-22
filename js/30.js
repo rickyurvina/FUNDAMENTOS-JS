@@ -7,6 +7,13 @@ const consultarAPI = async () => {
     console.log(respuesta)
    
     const resultado = await respuesta.json()
+    const listaUsuarios = document.getElementById('lista-usuarios');
+        
+    resultado.forEach(usuario => {
+        const itemLista = document.createElement('li');
+        itemLista.textContent = `Nombre: ${usuario.name}, Email: ${usuario.email}`;
+        listaUsuarios.appendChild(itemLista);
+    });
     console.log(resultado)
 }
 consultarAPI();

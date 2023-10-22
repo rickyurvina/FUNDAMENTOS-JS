@@ -1,19 +1,22 @@
-// Variables - let 
-let cliente = "Juan"
-let precioDescuento = 220 // camelCase
-var otraVariable="Ricardo"
-const valor='Ricky'
-
+// Variables - let
+let cliente = "Juan";
+let precioDescuento = 220; // camelCase
+var otraVariable = "Ricardo";
+const valor = "Ricky";
 
 // Re asignar
-cliente = 20
-cliente = true
+cliente = 20;
 
-// Pueden iniciar sin un valor
-let precio
+cliente = true;
+console.log(cliente);
 
-precio = 1000
+//  Pueden iniciar sin un valor
+let precio;
 
-console.log(precio)
-console.log(cliente)
-console.log(precioDescuento)
+precio = 1000;
+
+console.log(precio);
+// console.log(cliente)
+console.log(precioDescuento);
+
+// const valor=20

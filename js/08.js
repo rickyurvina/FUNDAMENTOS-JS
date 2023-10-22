@@ -8,7 +8,7 @@ const tecnologias =
     'JavaScript'
 ]
 
-console.log(tecnologias[4])
+// console.log(tecnologias[5])
 console.table(tecnologias)
 
 

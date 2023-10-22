@@ -1,12 +1,15 @@
 // Comparación y Operador Estricto
 
 const numero1 = 20
-const numero2 = "20"
+const numero2 = 20
+console.log(typeof numero1)
+console.log(typeof numero2)
 
 /*
     ==  ( Comparación pero no es estricto)
     === (Comparación estricta - Revisa valor y tipo de dato)
 */
+
 
 if(numero1 === numero2 ) {
     console.log('Si!, son iguales')
@@ -15,7 +18,7 @@ if(numero1 === numero2 ) {
 }
 
 
-const autenticado = true
-if(autenticado) {
-    console.log('Si esta autenticado')
-}
+// const autenticado = true
+// if(autenticado) {
+//     console.log('Si esta autenticado')
+// }
